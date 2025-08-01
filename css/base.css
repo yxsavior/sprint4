@@ -20,7 +20,7 @@ header nav ul {
 
 header nav a {
     text-decoration: none;
-    color: #000dbe;
+    color: #1351d8;
     font-weight: bold;
     font-size: 18px;
     transition: color 0.3s ease;
@@ -28,4 +28,38 @@ header nav a {
 
 header nav a:hover {
     color: #003478;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1b3571;
+    color: #fff;
+    padding: 10px 40px;
+}
+
+.redesSociais {
+    display: flex;
+    gap: 15px;
+}
+
+.redesSociais p {
+    margin: 5px 0;
+}
+
+.redesSociais img,
+.logo_footer img {
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.redesSociais img:hover {
+    transform: scale(1.1);
+}
+
+.copyright p {
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
 }
