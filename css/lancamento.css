@@ -1,0 +1,25 @@
+.texto_promocional {
+    flex: 0 0 300px;
+    padding-right: 20px;
+}
+
+.texto_promocional p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000;
+    margin: 20px 100px;
+    text-align: center;
+}
+
+.video_promocional {
+    flex: 1;
+    min-width: 0;
+}
+
+.video_promocional iframe {
+    width: 90%;
+    height: 500px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 6px 8px 8px rgb(58, 67, 70);
+}
